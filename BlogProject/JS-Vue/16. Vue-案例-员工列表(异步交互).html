@@ -15,7 +15,7 @@
             align-items: center; /* 垂直居中 */
         }
         .navbar h1 {
-            margin: 0; /* 移除默认的上下外边距 */
+            margin: 0;  /* 移除默认的上下外边距 */
             font-weight: bold; /* 加粗 */
             color: white;
             /* 设置字体为楷体 */
@@ -134,7 +134,7 @@
                     <td>{{e.name}}</td>
                     <td>{{e.gender == 1?'男' : '女'}}</td>
 
-                    <!-- 插值表达式是不能出现在标签内部 -->
+                    <!-- 插值表达式是不能出现在标签内部 用v-bind-->
                     <td><img class="avatar"  v-bind:src="e.image" :alt="e.name"></td>
 
                     <!-- v-if: 控制元素的显示与隐藏 -->
