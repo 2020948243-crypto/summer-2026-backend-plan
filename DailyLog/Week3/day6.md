@@ -7,8 +7,12 @@
 - [ ] 题目2：
 
 #### 项目开发
-- [ ] 任务1：
-- [ ] 任务2：
+- [ ] 任务1：苍穹外卖SpringBoot+SSM的企业级Java项目实战day1
+- [ ] 任务2：开发环境搭建以及接口设计
+            Swagger:knife4j定位依赖、config文件设置静态资源映射
+            @Api(tags = "***"):设计接口文档
+            @ApiOperation(value = "***"):设计接口方法
+            NGINX服务器：反向代理，负载均衡
 
 #### 底层学习
 - [ ] MySQL：
